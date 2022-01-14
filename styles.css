@@ -1,0 +1,49 @@
+@import "reset.css";
+
+body {
+  overflow: hidden;
+  touch-action: none;
+}
+.main {
+  background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.canvas {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.main .controls__colors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.controls__colors .controls__color {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px 5px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.main .controls__colors-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .controls__range {
+  margin-bottom: 20px;
+}
+.main .controls__btns {
+  margin-bottom: 20px;
+}
